@@ -7,3 +7,6 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
 print(states_of_america)
+
+#To know how many things are in the llist or how many  things are there
+print(f"The number of states in america is :{len(states_of_america)}")

@@ -11,9 +11,12 @@ if height >= 120:
     elif age <= 18:
         bill = 7
         print("Youth tickets are $7.")
-    else:
+    elif age >18: # could have been an else for when the conditions are done then that can enter or be entered.
         bill = 12
         print("Adult tickets are $12.")
+    elif 45 <= age <=55: #Take note this is very cool
+        bill+=0
+        print("Midlife crises relief, you pay $0.")
 
     wants_photo = input("Do you want a photo taken? Y or N. ")
     if wants_photo == "Y":
